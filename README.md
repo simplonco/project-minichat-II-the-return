@@ -1,4 +1,4 @@
-# MiniChat Project
+# MiniChat Project II - The Return
 
 ![Cutie Cutie <3 !](kitten.jpg)
 
