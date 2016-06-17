@@ -1,10 +1,8 @@
 # MiniChat Project II - The Return
 
-The project is a **Chat Web App**, groups will be set _randomly_, you will use [Firebase](https://www.firebase.google.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+The project is a **Chat Web App**, groups will be set _randomly_, you will use PHP and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
-What you need, is what you already learn : `HTML`, `CSS`, `Bootstrap`, `JS` and `jQuery` !
-
-First day, you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
+What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `JS` and/or `jQuery` !
 
 And finally you will have the total freedom to use plugins or framework (e.g.: [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) or [Material Design Light](https://getmdl.io/)).
 
@@ -46,27 +44,6 @@ var retreiveMessages = function () {
 ```
 
 The purpose is to start to code the interface and test using these functions and **in the same time** an other member of the team can work on the function to make them work with real data.
-
-Here is the `Javascript` code example give on the official `Firebase` website:
-
-```javascript
-// Create a connection to your Firebase database
-firebase.initializeApp({
-    apiKey: "<FIREBASE-API-KEY>",
-    authDomain: "<FIREBASE-DOMAIN>.firebaseapp.com",
-    databaseURL: 'https://<FIREBASE-DOMAIN>.firebaseio.com/'
-});
-var myFirebaseRef = firebase.database().ref('/');
-// Save data
-ref.set({ name: "Alex Wolfe" });
-// Listen for realtime changes
-ref.on("value", function(data) {
-    var name = data.val().name;
-    alert("My name is " + name);
-});
-```
-
-Firebase have a realtime update design, so you can remplace the `retreiveMessages` function by just an `updateConversation` function we will update the content of the conversation and will be call in the `ref.on` method, and of course `sendMessage` will use `ref.set`.
 
 ## Ressources
 
