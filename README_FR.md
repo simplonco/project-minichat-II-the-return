@@ -1,10 +1,8 @@
-# Projet de MiniT'Chat
+# Projet de MiniT'Chat - II Le Retour
 
-Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser [Firebase](https://www.firebase.google.com/) (une base de données à distance basée sur la technologie `AJAX`) et certains Préprocesseurs CSS : [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser PHP et certains Préprocesseurs CSS : [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
-Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `Bootstrap`, `JS` et `jQuery` !
-
-Le premier jour, vous aller vous concentrer sur l'interface et l'expérience utilisateur de l'application, et écrire un cahier des charges / spécifications fonctionnelles (quelques outils pour créer vos mockups <http://mashable.com/2012/06/07/mockup-tools/>).
+Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `PHP`, `JS` et/ou `jQuery` !
 
 Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (ex : [Bootstrap](http://getbootstrap.com/) ou [Foundation](http://foundation.zurb.com/) ou [Material Design Light](https://getmdl.io/)).
 
@@ -46,27 +44,6 @@ var retreiveMessages = function () {
 ```
 
 Le but est de commencer à coder l'interface et de tester l'utilisation de ces fonctions et **dans le même temps** un autre membre de l'équipe peut travailler sur les fonctions pour les faire fonctionner avec des données réelles.
-
-Voici le code d'exemple `Javascript` donné sur le site officiel de `Firebase` :
-
-```javascript
-// Créé une connexion à votre base de données Firebase
-firebase.initializeApp({
-    apiKey: "<FIREBASE-API-KEY>",
-    authDomain: "<FIREBASE-DOMAIN>.firebaseapp.com",
-    databaseURL: 'https://<FIREBASE-DOMAIN>.firebaseio.com/'
-});
-var myFirebaseRef = firebase.database().ref('/');
-// Enregistre les données
-ref.set({ name: "Alex Wolfe" });
-// Écoute les changements en temps réel
-ref.on("value", function(data) {
-    var name = data.val().name;
-    alert("My name is " + name);
-});
-```
-
-Firebase est conçu avec un système de mise à jour en temps réel, de sorte que vous pouvez remplacer la fonction `retreiveMessages` par juste une fonction `updateConversation` qui mettra à jour le contenu de la conversation et sera appelé dans la méthode `ref.on`, et bien sûr `sendMessage` utilisera `ref.set`.
 
 ## Ressources
 
