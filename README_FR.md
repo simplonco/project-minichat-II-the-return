@@ -8,7 +8,7 @@ Un fichier squelette `index-skeleton.php` est disponible à la racine de ce dép
 
 Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat) !
 
-## Cahier des charges fonctionnel (déjà rédigées)
+## Cahier des charges fonctionnel (déjà rédigé)
 
 * [Version française](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [Version anglaise](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
