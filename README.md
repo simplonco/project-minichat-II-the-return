@@ -1,8 +1,7 @@
 # MiniChat Project II - The Return
 
 The project is a **Chat Web App**, groups will be set _randomly_, you will use PHP & MySQL.
-
-What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `JS` and/or `jQuery` !
+What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS` !
 
 You will use the framework [Material Design Light](https://getmdl.io/).
 
