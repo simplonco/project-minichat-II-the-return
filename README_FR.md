@@ -5,7 +5,7 @@ Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, 
 
 Vous utiliserez le framework [Material Design Light](https://getmdl.io/).
 
-## Spécifications fonctionnelles
+## Spécifications fonctionnelles (déjà rédigées)
 
 * [Version française](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [Version anglaise](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
