@@ -5,11 +5,14 @@ What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS`
 
 You will use the framework [Material Design Light](https://getmdl.io/).
 
+This topic is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat)!
+
 ## Specifications Templates (already write)
 
 * [French version](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [English version](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
 
+<!--
 ## Features
 
 That's a chat, you have to let people discuss together, of course:
@@ -59,3 +62,4 @@ For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_c
 * <https://en.wikipedia.org/wiki/Ajax_%28programming%29>
 * You can read the official jQuery documentation <https://api.jquery.com/jquery.get/> & <http://api.jquery.com/jquery.ajax/>
 * and a bit of OpenClassrooms <https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery/premiers-pas-avec-ajax> & <https://openclassrooms.com/courses/un-site-web-dynamique-avec-jquery/le-fonctionnement-de-ajax>
+-->
