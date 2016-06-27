@@ -5,11 +5,14 @@ Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, 
 
 Vous utiliserez le framework [Material Design Light](https://getmdl.io/).
 
+Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat) !
+
 ## Spécifications fonctionnelles (déjà rédigées)
 
 * [Version française](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [Version anglaise](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
 
+<!--
 ## Caractéristiques
 
 C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
@@ -73,3 +76,4 @@ Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/sm
 * Proposez d'actualiser le mini-chat. Le mini-chat ne s'actualise pas automatiquement s'il y a de nouveaux messages. C'est normal, ce serait difficile à faire à notre niveau. À la base, le Web n'a pas vraiment été prévu pour ce type d'applications. En revanche, ce que vous pouvez facilement faire, c'est proposer un lien « Rafraîchir » qui charge à nouveau la page minichat.php. Ainsi, s'il y a de nouveaux messages, ils apparaîtront après un clic sur le lien.
 
 * Afficher les anciens messages. On ne voit actuellement que les 10 derniers messages. Sauriez-vous trouver un moyen d'afficher les anciens messages ? Bien sûr, les afficher tous d'un coup sur la même page n'est pas une bonne idée. Vous pourriez imaginer un paramètre $_GET['page'] qui permet de choisir le numéro de page des messages à afficher.
+-->
