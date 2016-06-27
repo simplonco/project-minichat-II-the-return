@@ -4,10 +4,11 @@ The project is a **Chat Web App**, groups will be set _randomly_, you will use P
 What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS` !
 
 You will use the framework [Material Design Light](https://getmdl.io/).
+A squeleton file `index-squeleton.php` is avaible in the root of this repository, you have to follow functional specifications.
 
-This topic is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat)!
+This topic is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat).
 
-## Specifications Templates (already write)
+## Functional Specifications (already write)
 
 * [French version](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [English version](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
