@@ -1,15 +1,15 @@
 # MiniChat Project II - The Return
 
-The project is a **Chat Web App**, groups will be set _randomly_, you will use PHP and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+The project is a **Chat Web App**, groups will be set _randomly_, you will use PHP & MySQL.
 
 What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `JS` and/or `jQuery` !
 
-And finally you will have the total freedom to use plugins or framework (e.g.: [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) or [Material Design Light](https://getmdl.io/)).
+You will use the framework [Material Design Light](https://getmdl.io/).
 
 ## Specifications Templates
 
-* [French version](https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU)
-* [English version](https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA)
+* [French version](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
+* [English version](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
 
 ## Features
 
