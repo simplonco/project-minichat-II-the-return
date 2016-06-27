@@ -1,8 +1,7 @@
 # Projet de MiniT'Chat - II Le Retour
 
-Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser PHP & MySQL.
-
-Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `PHP`, `JS` et/ou `jQuery` !
+Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_.
+Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `PHP`, `MySQL` et `JS` !
 
 Vous utiliserez le framework [Material Design Light](https://getmdl.io/).
 
