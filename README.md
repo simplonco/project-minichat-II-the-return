@@ -6,7 +6,7 @@ What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS`
 You will use the framework [Material Design Light](https://getmdl.io/).
 A squeleton file `index-squeleton.php` is avaible in the root of this repository, you have to follow functional specifications.
 
-This topic is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat).
+This subject is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat).
 
 ## Functional Specifications (already write)
 
