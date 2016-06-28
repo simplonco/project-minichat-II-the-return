@@ -15,9 +15,9 @@ Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://
 
 ## Structure de la table MySQL
 
-* `ID` (type `INT`) : il nous permettra de savoir dans quel ordre ont été postés les messages. Il faudra le mettre en `auto_increment` pour que les numéros s'écrivent tout seuls, et ne pas oublier de sélectionner "Primaire" (cela dit à MySQL que c'est le champ qui numérote les entrées) ;
+* `ID` (type `INT`) : il nous permettra de savoir dans quel ordre ont été postés les messages. Il faudra le mettre en `auto_increment` pour que les numéros s'écrivent tout seuls, et ne pas oublier de sélectionner "Primaire" (cela dit à MySQL que c'est le champ qui numérote les entrées);
 
-* `pseudo` (type `VARCHAR`) : pensez à indiquer la taille maximale du champ (je vous conseille de mettre le maximum, "255") ;
+* `pseudo` (type `VARCHAR`) : pensez à indiquer la taille maximale du champ (je vous conseille de mettre le maximum, "255");
 
 * `message` (type `VARCHAR`) : de même, on indiquera une taille maximale de 255 caractères. Si vous pensez que vos messages seront plus longs, utilisez plutôt le type `TEXT`, beaucoup moins limité.
 
