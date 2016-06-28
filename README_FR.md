@@ -23,14 +23,31 @@ Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://
 
 ## Caractéristiques
 
-C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
+C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un canal global, permettre aux utilisateurs de choisir un pseudo, les messages sont du texte brut.
 
-* Tout d'abord créer un grand canal global, puis autoriser d'autres canaux comme des discussions privées;
-* Permettre aux utilisateurs de choisir un pseudo et peut-être de définir un avatar (vous pouvez utiliser [Gravatar](https://fr.gravatar.com/)) ;
-* Que les gens puissent s'envoyer des _Smileys Emoji_, _Liens_, _Photos_, _Vidéos Youtubes_, _Tags d'utilisateurs_, etc.. (vous devrez utiliser les `REGEX`) ;
-* Rendre tout cela joli (avec plein de `CSS`) et ne pas oublier que l'application doit être reponsive, pensez à la façon dont elle s'affichera sur les appareils mobiles !
+### Bonus
+
+* Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut value. Par exemple :
+
+```html
+<input type="text" name="pseudo" value="Alice" />
+```
+
+* Remplacez `Alice` par le pseudonyme du visiteur. Ce pseudonyme peut être issu d'un cookie par exemple : lorsqu'il poste un message, vous inscrivez son pseudo dans un cookie, ce qui vous permet ensuite de pré-remplir le champ.
+
+* Proposez d'actualiser le mini-chat. Le mini-chat ne s'actualise pas automatiquement s'il y a de nouveaux messages. C'est normal, ce serait difficile à faire à notre niveau. À la base, le Web n'a pas vraiment été prévu pour ce type d'applications. En revanche, ce que vous pouvez facilement faire, c'est proposer un lien « Rafraîchir » qui charge à nouveau la page. Ainsi, s'il y a de nouveaux messages, ils apparaîtront après un clic sur le lien.
+
+* Refraichir automatiquement la page toute les 5 secondes à l'aide de JavaScript.
+
+* Afficher les anciens messages. On ne voit actuellement que les 10 derniers messages. Sauriez-vous trouver un moyen d'afficher les anciens messages ? Bien sûr, les afficher tous d'un coup sur la même page n'est pas une bonne idée. Vous pourriez imaginer un paramètre `$_GET['page']` qui permet de choisir le numéro de page des messages à afficher.
+
+* Autoriser d'autres canaux comme des discussions privées.
+
+* Laisser les utilisateurs définir un avatar (vous pouvez utiliser [Gravatar](https://fr.gravatar.com/)).
 
 <!--
+* Que les gens puissent s'envoyer des _Smileys Emoji_, _Liens_, _Photos_, _Vidéos Youtubes_, _Tags d'utilisateurs_, etc.. (vous devrez utiliser les `REGEX`) ;
+
 ## Conception
 
 Voici quelques conseils et astuces pour vous aider à travailler ensemble sur le même code.
@@ -71,18 +88,5 @@ Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/sm
 * <https://fr.wikipedia.org/wiki/Ajax_(informatique)>
 * Vous pouvez lire les pages de la documentation officielle jQuery <https://api.jquery.com/jquery.get/> & <http://api.jquery.com/jquery.ajax/>
 * Et un peu de OpenClassrooms <https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery/premiers-pas-avec-ajax> & <Https://openclassrooms.com/courses/un-site-web-dynamique-avec-jquery/le-fonctionnement-de-ajax>
-
-# Voici quelques idées pour améliorer le script :
-
-* Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut value. Par exemple :
-
-```html
-<input type="text" name="pseudo" value="M@teo21" />
-```
-
-* Remplacez M@teo21 par le pseudonyme du visiteur. Ce pseudonyme peut être issu d'un cookie par exemple : lorsqu'il poste un message, vous inscrivez son pseudo dans un cookie, ce qui vous permet ensuite de pré-remplir le champ.
-
-* Proposez d'actualiser le mini-chat. Le mini-chat ne s'actualise pas automatiquement s'il y a de nouveaux messages. C'est normal, ce serait difficile à faire à notre niveau. À la base, le Web n'a pas vraiment été prévu pour ce type d'applications. En revanche, ce que vous pouvez facilement faire, c'est proposer un lien « Rafraîchir » qui charge à nouveau la page minichat.php. Ainsi, s'il y a de nouveaux messages, ils apparaîtront après un clic sur le lien.
-
-* Afficher les anciens messages. On ne voit actuellement que les 10 derniers messages. Sauriez-vous trouver un moyen d'afficher les anciens messages ? Bien sûr, les afficher tous d'un coup sur la même page n'est pas une bonne idée. Vous pourriez imaginer un paramètre $_GET['page'] qui permet de choisir le numéro de page des messages à afficher.
 -->
+
