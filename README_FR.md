@@ -13,7 +13,14 @@ Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://
 * [Version française](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [Version anglaise](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
 
-<!--
+## Structure de la table MySQL
+
+* `ID` (type `INT`) : il nous permettra de savoir dans quel ordre ont été postés les messages. Il faudra le mettre en `auto_increment` pour que les numéros s'écrivent tout seuls, et ne pas oublier de sélectionner « Primaire » (cela dit à MySQL que c'est le champ qui numérote les entrées) ;
+
+* `pseudo` (type `VARCHAR`) : pensez à indiquer la taille maximale du champ (je vous conseille de mettre le maximum, « 255 ») ;
+
+* `message` (type `VARCHAR`) : de même, on indiquera une taille maximale de 255 caractères. Si vous pensez que vos messages seront plus longs, utilisez plutôt le type `TEXT`, beaucoup moins limité.
+
 ## Caractéristiques
 
 C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
@@ -23,6 +30,7 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 * Que les gens puissent s'envoyer des _Smileys Emoji_, _Liens_, _Photos_, _Vidéos Youtubes_, _Tags d'utilisateurs_, etc.. (vous devrez utiliser les `REGEX`) ;
 * Rendre tout cela joli (avec plein de `CSS`) et ne pas oublier que l'application doit être reponsive, pensez à la façon dont elle s'affichera sur les appareils mobiles !
 
+<!--
 ## Conception
 
 Voici quelques conseils et astuces pour vous aider à travailler ensemble sur le même code.
