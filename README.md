@@ -23,7 +23,7 @@ This project is loosely based on [OpenClassrooms - TP : un mini-chat](https://op
 
 ## Features
 
-It's a chat, of course you must let people talk together on a global channel, allowing users to choose a nickname, messages are plain text.
+It's a chat, of course you must let people talk together on a global channel, without password login, allowing users to choose a nickname, messages are plain text.
 
 ## Bonus
 
