@@ -23,7 +23,7 @@ Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://
 
 ## Caractéristiques
 
-C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un canal global, permettre aux utilisateurs de choisir un pseudo, les messages sont du texte brut.
+C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un canal global, sans connexion avec mot de passe, permettre aux utilisateurs de choisir un pseudo, les messages sont du texte brut.
 
 ## Bonus
 
