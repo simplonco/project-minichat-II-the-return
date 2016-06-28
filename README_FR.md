@@ -23,11 +23,11 @@ Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://
 
 ## Caractéristiques
 
-C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un canal global, sans connexion avec mot de passe, permettre aux utilisateurs de choisir un pseudo, les messages sont du texte brut.
+C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un canal global, __sans connexion avec mot de passe__, permettre aux utilisateurs de choisir un pseudo, les messages sont du texte brut.
 
 ## Bonus
 
-* Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut value. Par exemple :
+* Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut `value`. Par exemple :
 
 ```html
 <input type="text" name="pseudo" value="Alice" />
