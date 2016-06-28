@@ -13,7 +13,14 @@ This project is loosely based on [OpenClassrooms - TP : un mini-chat](https://op
 * [French version](https://docs.google.com/document/d/1AK9OQgLsr0Iv549YS3zUCoENvSVdm0H5RV2kMYpaeyc)
 * [English version](https://docs.google.com/document/d/15xab7ijmKXCmGWooJcPr9Yp8X6TVPQ3CnYtqoKc297Q)
 
-<!--
+## Structure of the MySQL table
+
+* `ID` (`INT`): he will let us know in what order were mailed messages. It will set the `auto_increment` for the numbers to write themselves, and do not forget to select "Primary" (this tells MySQL that this is the field that numbers the records);
+
+* `pseudo` (`VARCHAR`): remember to specify the maximum size of the field (get to the maximum, "255");
+
+* `message` (`VARCHAR`): Similarly, we will show a maximum size of 255 characters. If you think that your messages will be longer, use rather the type `TEXT`, much less limited.
+
 ## Features
 
 That's a chat, you have to let people discuss together, of course:
@@ -23,6 +30,7 @@ That's a chat, you have to let people discuss together, of course:
 * Let people send Emoji Smiley, Links, Pictures, Youtube Videos, User Tags, etc.. (you will use `REGEX`) ;
 * Make everything looks great (with a lot of `CSS`) and don't forget the app have to be responsive, think about how it will look on mobile devices!
 
+<!--
 ## Design
 
 Here few advices and tricks to help you to work together on the same project code.
