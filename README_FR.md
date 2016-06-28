@@ -37,7 +37,7 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 
 * Proposez d'actualiser le mini-chat. Le mini-chat ne s'actualise pas automatiquement s'il y a de nouveaux messages. C'est normal, ce serait difficile à faire à notre niveau. À la base, le Web n'a pas vraiment été prévu pour ce type d'applications. En revanche, ce que vous pouvez facilement faire, c'est proposer un lien « Rafraîchir » qui charge à nouveau la page. Ainsi, s'il y a de nouveaux messages, ils apparaîtront après un clic sur le lien.
 
-* Rafraichir automatiquement la page toute les 5 secondes à l'aide de JavaScript.
+* Rafraichir automatiquement la page toute les 5 secondes à l'aide de __JavaScript__.
 
 * Afficher les anciens messages. On ne voit actuellement que les 10 derniers messages. Sauriez-vous trouver un moyen d'afficher les anciens messages ? Bien sûr, les afficher tous d'un coup sur la même page n'est pas une bonne idée. Vous pourriez imaginer un paramètre `$_GET['page']` qui permet de choisir le numéro de page des messages à afficher.
 
