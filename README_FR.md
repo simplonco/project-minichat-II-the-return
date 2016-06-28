@@ -25,7 +25,7 @@ Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://
 
 C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un canal global, permettre aux utilisateurs de choisir un pseudo, les messages sont du texte brut.
 
-### Bonus
+## Bonus
 
 * Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut value. Par exemple :
 
