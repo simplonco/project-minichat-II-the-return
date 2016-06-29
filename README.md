@@ -41,6 +41,6 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 * View old messages. It is now clear that the last 10 messages. Can you find a way to display the old messages? Of course, view them all at once on the same page is not a good idea. You could imagine a setting `$_GET['page']` which to choose the messages page number to display.
 
-* Let's users use __emojis__! For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
+* Let's users use [Emojis](http://www.emoji-cheat-sheet.com/)! For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
 
 * Allow other channels such as private discussions.
