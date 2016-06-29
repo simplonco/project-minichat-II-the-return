@@ -29,8 +29,8 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 
 * Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut `value`. Par exemple :
 
-```html
-<input type="text" name="pseudo" value="Alice" />
+```php
+<input type="text" name="username" value="Alice" />
 ```
 
 * Remplacez `Alice` par le pseudonyme du visiteur. Ce pseudonyme peut être issu d'un cookie par exemple : lorsqu'il poste un message, vous inscrivez son pseudo dans un cookie, ce qui vous permet ensuite de pré-remplir le champ.
