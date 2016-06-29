@@ -1,12 +1,12 @@
 # MiniChat Project II - The Return
 
 The project is a **Chat Web App**, groups will be set _randomly_.
-What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS` !
+What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS`!
 
 You will use the framework [Material Design Light](https://getmdl.io/).
 __You have to use the squeleton file__ `index-squeleton.php` which is avaible in the root of this repository, you have to follow functional specifications.
 
-__This project is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat).__
+__This project is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat)!__
 
 ## Functional Specifications (already write)
 
@@ -40,5 +40,7 @@ It's a chat, of course you must let people talk together on a global channel, __
 * Refresh automatically every 5 seconds the page using __JavaScript__.
 
 * View old messages. It is now clear that the last 10 messages. Can you find a way to display the old messages? Of course, view them all at once on the same page is not a good idea. You could imagine a setting `$_GET['page']` which to choose the messages page number to display.
+
+* Let's users use __emojis__! For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
 
 * Allow other channels such as private discussions.
