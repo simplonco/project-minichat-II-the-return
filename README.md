@@ -29,7 +29,7 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 * Remember the nickname. We must now re-enter their username for each new message. As you probably know, it is possible in HTML pre-fill a field with the value attribute. For example:
 
-```html
+```php
 <input type="text" name="username" value="Alice" />
 ```
 
