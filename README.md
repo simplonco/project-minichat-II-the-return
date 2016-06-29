@@ -23,17 +23,17 @@ __This project is loosely based on [OpenClassrooms - TP : un mini-chat](https://
 
 ## Features
 
-It's a chat, of course you must let people talk together on a global channel, __without password login__, allowing users to choose a nickname, messages are plain text.
+It's a chat, of course you must let people talk together on a global channel, __without password login__, allowing users to choose a pseudo, messages are plain text.
 
 ## Bonus
 
-* Remember the nickname. We must now re-enter their username for each new message. As you probably know, it is possible in HTML pre-fill a field with the value attribute. For example:
+* Remember the pseudo. We must now re-enter their pseudo for each new message. As you probably know, it is possible in HTML pre-fill a field with the value attribute. For example:
 
 ```php
-<input type="text" name="username" value="Alice" />
+<input type="text" name="pseudo" value="Alice" />
 ```
 
-* Replace `Alice` by the pseudonym of the visitor. This pseudonym can be from a cookie for example when post a message, you enter their username in a cookie, which then allows you to pre-fill the field.
+* Replace `Alice` by the pseudo of the visitor. This pseudo can be from a cookie for example when post a message, you enter their pseudo in a cookie, which then allows you to pre-fill the field.
 
 * Submit to update the mini-chat. The mini-cat does not automatically update if new messages. This is normal, it would be hard to do at our level. Basically, the web was not really intended for this type of application. However, you can easily do is provide a link "Refresh" to load the page again. Thus, if there are new messages, they will appear after clicking on the link.
 
