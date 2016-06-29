@@ -41,6 +41,6 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 
 * Afficher les anciens messages. On ne voit actuellement que les 10 derniers messages. Sauriez-vous trouver un moyen d'afficher les anciens messages ? Bien sûr, les afficher tous d'un coup sur la même page n'est pas une bonne idée. Vous pourriez imaginer un paramètre `$_GET['page']` qui permet de choisir le numéro de page des messages à afficher.
 
-* Permettre aux utilisateurs d'utiliser des __emojis__ ! Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/smile_cat.png" />`.
+* Permettre aux utilisateurs d'utiliser des [Emojis](http://www.emoji-cheat-sheet.com/) ! Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/smile_cat.png" />`.
 
 * Autoriser d'autres canaux comme des discussions privées.
