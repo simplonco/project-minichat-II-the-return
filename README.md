@@ -42,5 +42,3 @@ It's a chat, of course you must let people talk together on a global channel, __
 * View old messages. It is now clear that the last 10 messages. Can you find a way to display the old messages? Of course, view them all at once on the same page is not a good idea. You could imagine a setting `$_GET['page']` which to choose the messages page number to display.
 
 * Allow other channels such as private discussions.
-
-* Allow users to define an avatar (you can use [Gravatar](https://fr.gravatar.com/)).
