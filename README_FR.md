@@ -4,9 +4,9 @@ Le projet est une **application Web de T'Chat**, les groupes seront définis _al
 Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `PHP`, `MySQL` et `JS` !
 
 Vous utiliserez le framework [Material Design Light](https://getmdl.io/).
-Un fichier squelette `index-skeleton.php` est disponible à la racine de ce dépôt, vous devez suivre le cahier des charges fonctionnel.
+__Vous devez utiliser le fichier structure__ `index-skeleton.php` qui est disponible à la racine de ce dépôt, vous devez suivre le cahier des charges fonctionnel.
 
-Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat) !
+__Ce sujet est librement inspiré de [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat) !__
 
 ## Cahier des charges fonctionnel (déjà rédigé)
 
@@ -42,5 +42,3 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 * Afficher les anciens messages. On ne voit actuellement que les 10 derniers messages. Sauriez-vous trouver un moyen d'afficher les anciens messages ? Bien sûr, les afficher tous d'un coup sur la même page n'est pas une bonne idée. Vous pourriez imaginer un paramètre `$_GET['page']` qui permet de choisir le numéro de page des messages à afficher.
 
 * Autoriser d'autres canaux comme des discussions privées.
-
-* Laisser les utilisateurs définir un avatar (vous pouvez utiliser [Gravatar](https://fr.gravatar.com/)).
