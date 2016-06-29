@@ -4,7 +4,7 @@ The project is a **Chat Web App**, groups will be set _randomly_.
 What you need, is what you already learn : `HTML`, `CSS`, `PHP`, `MySQL` et `JS` !
 
 You will use the framework [Material Design Light](https://getmdl.io/).
-__You have to use__ the squeleton file `index-squeleton.php` which is avaible in the root of this repository, you have to follow functional specifications.
+__You have to use the squeleton file__ `index-squeleton.php` which is avaible in the root of this repository, you have to follow functional specifications.
 
 __This project is loosely based on [OpenClassrooms - TP : un mini-chat](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/tp-un-mini-chat).__
 
