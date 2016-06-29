@@ -30,10 +30,10 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 * Retenir le pseudo. On doit actuellement saisir à nouveau son pseudo à chaque nouveau message. Comme vous le savez probablement, il est possible en HTML de pré-remplir un champ avec l'attribut `value`. Par exemple :
 
 ```php
-<input type="text" name="username" value="Alice" />
+<input type="text" name="pseudo" value="Alice" />
 ```
 
-* Remplacez `Alice` par le pseudonyme du visiteur. Ce pseudonyme peut être issu d'un cookie par exemple : lorsqu'il poste un message, vous inscrivez son pseudo dans un cookie, ce qui vous permet ensuite de pré-remplir le champ.
+* Remplacez `Alice` par le pseudo du visiteur. Ce pseudo peut être issu d'un cookie par exemple : lorsqu'il poste un message, vous inscrivez son pseudo dans un cookie, ce qui vous permet ensuite de pré-remplir le champ.
 
 * Proposez d'actualiser le mini-chat. Le mini-chat ne s'actualise pas automatiquement s'il y a de nouveaux messages. C'est normal, ce serait difficile à faire à notre niveau. À la base, le Web n'a pas vraiment été prévu pour ce type d'applications. En revanche, ce que vous pouvez facilement faire, c'est proposer un lien « Rafraîchir » qui charge à nouveau la page. Ainsi, s'il y a de nouveaux messages, ils apparaîtront après un clic sur le lien.
 
