@@ -61,7 +61,7 @@ You can even [link to Google!](http://google.com)
 va être remplacé par
 ```html
 It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown.
-You can even <a href="http://google.com">link to Google!</a></div>
+You can even <a href="http://google.com">link to Google!</a>
 ```
 
 ### Niveau 5
