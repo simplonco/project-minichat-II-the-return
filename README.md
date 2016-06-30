@@ -27,6 +27,8 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 ## Bonus
 
+### Level 1
+
 * Remember the pseudo. We must now re-enter their pseudo for each new message. As you probably know, it is possible in HTML pre-fill a field with the value attribute. For example:
 
 ```php
@@ -35,12 +37,22 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 * Replace `Alice` by the pseudo of the visitor. This pseudo can be from a cookie for example when post a message, you enter their pseudo in a cookie, which then allows you to pre-fill the field.
 
+### Level 2
+
 * The mini-cat does not automatically update if new messages. However, you can easily do is provide a link "Refresh" to load the page again. Thus, if there are new messages, they will appear after clicking on the link.
 
 * Refresh automatically every 30 seconds the page using __JavaScript__.
 
-* View old messages. It is now clear that the last 10 messages. Can you find a way to display the old messages? Of course, view them all at once on the same page is not a good idea. You could imagine a setting `$_GET['page']` which to choose the messages page number to display.
+### Level 3
+
+* Display only the last 10 messages.
+
+* Can you find a way to display the old messages? Of course, view them all at once on the same page is not a good idea. You could imagine a setting `$_GET['page']` which to choose the messages page number to display.
+
+### Level 4
 
 * Let's users use [Emojis](http://www.emoji-cheat-sheet.com/)! For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
+
+### Level 5
 
 * Allow other channels such as private discussions.
