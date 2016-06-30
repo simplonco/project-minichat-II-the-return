@@ -51,14 +51,14 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 ### Level 4
 
-* Let's users use [Emojis](http://www.emoji-cheat-sheet.com/)! For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
+* Let's users use [Emojis](http://www.emoji-cheat-sheet.com/)! For example: `:smile_cat:` will be replaced by `<img src="graphics/emojis/smile_cat.png" />`.
 
 * Let's users use [Markdown](https://guides.github.com/features/mastering-markdown/) For example:
 ```markdown
 It's very easy to make some words **bold** and other words *italic* with Markdown.
 You can even [link to Google!](http://google.com)
 ```
-while be replace by
+while be replaced by
 ```html
 It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown.
 You can even <a href="http://google.com">link to Google!</a></div>
