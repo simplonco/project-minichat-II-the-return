@@ -1,6 +1,6 @@
 <?php
 // Connexion à la base de données
-/* TODO */
+
 $localhost = 'localhost';
 $username = 'root';
 $password = 'root';
@@ -55,7 +55,7 @@ ul, ol {
                 
                   <?php
                   // Récupération des 10 derniers messages
-                  /* TODO */
+               
                   $localhost = 'localhost';
                   $username = 'root';
                   $password = 'root';
@@ -68,8 +68,8 @@ ul, ol {
 
 
                   // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
-                  /* TODO */
-                  // while (...) {
+                  
+                
                   while ($row = mysql_fetch_array($query)) {
                       echo '<img src="' . $gravatar_link . '" />'. $row['nickname'].':'.$row['message'].'<br>';
                   }
@@ -77,7 +77,7 @@ ul, ol {
                   ?>
                     <li class="mdl-list__item">
                         <span class="mdl-list__item-primary-content">
-                            <strong><?php /* TODO */ ?></strong><?php /* TODO */ ?>
+                            <strong><?php  ?></strong><?php  ?>
                         </span>
                     </li>
 <?php
