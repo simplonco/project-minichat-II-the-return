@@ -35,7 +35,7 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 * Replace `Alice` by the pseudo of the visitor. This pseudo can be from a cookie for example when post a message, you enter their pseudo in a cookie, which then allows you to pre-fill the field.
 
-* Submit to update the mini-chat. The mini-cat does not automatically update if new messages. This is normal, it would be hard to do at our level. Basically, the web was not really intended for this type of application. However, you can easily do is provide a link "Refresh" to load the page again. Thus, if there are new messages, they will appear after clicking on the link.
+* The mini-cat does not automatically update if new messages. However, you can easily do is provide a link "Refresh" to load the page again. Thus, if there are new messages, they will appear after clicking on the link.
 
 * Refresh automatically every 5 seconds the page using __JavaScript__.
 
