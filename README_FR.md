@@ -51,14 +51,14 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 
 ### Niveau 4
 
-* Permettre aux utilisateurs d'utiliser des [Emojis](http://www.emoji-cheat-sheet.com/) ! Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/smile_cat.png" />`.
+* Permettre aux utilisateurs d'utiliser des [Emojis](http://www.emoji-cheat-sheet.com/) ! Par exemple : `:smile_cat:` va être remplacé par `<img src="graphics/emojis/smile_cat.png" />`.
 
 * Permettre aux utilisateurs d'écrire en [Markdown](https://guides.github.com/features/mastering-markdown/) ! Par exemple :
 ```markdown
 It's very easy to make some words **bold** and other words *italic* with Markdown.
 You can even [link to Google!](http://google.com)
 ```
-va être remplacer par
+va être remplacé par
 ```html
 It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown.
 You can even <a href="http://google.com">link to Google!</a></div>
