@@ -55,11 +55,13 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 * Let's users use [Markdown](https://guides.github.com/features/mastering-markdown/) For example:
 ```markdown
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+It's very easy to make some words **bold** and other words *italic* with Markdown.
+You can even [link to Google!](http://google.com)
 ```
 while be replace by
 ```html
-It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown. You can even <a href="http://google.com">link to Google!</a></div>
+It's very easy to make some words <strong>bold</strong> and other words <em>italic</em> with Markdown.
+You can even <a href="http://google.com">link to Google!</a></div>
 ```
 
 ### Level 5
