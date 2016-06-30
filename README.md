@@ -51,7 +51,7 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 ### Level 4
 
-* Let's users use [Emojis](http://www.emoji-cheat-sheet.com/)! For example: `:smile_cat:` will be replaced by `<img src="graphics/emojis/smile_cat.png" />`.
+* Let's users use [Emojis](http://www.emoji-cheat-sheet.com/)! For example: `:smile_cat:` will be replaced by `<img src="graphics/emojis/smile_cat.png"/>`.
 
 * Let's users use [Markdown](https://guides.github.com/features/mastering-markdown/) For example:
 ```markdown
