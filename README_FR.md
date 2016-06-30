@@ -51,7 +51,7 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble sur un 
 
 ### Niveau 4
 
-* Permettre aux utilisateurs d'utiliser des [Emojis](http://www.emoji-cheat-sheet.com/) ! Par exemple : `:smile_cat:` va être remplacé par `<img src="graphics/emojis/smile_cat.png" />`.
+* Permettre aux utilisateurs d'utiliser des [Emojis](http://www.emoji-cheat-sheet.com/) ! Par exemple : `:smile_cat:` va être remplacé par `<img src="graphics/emojis/smile_cat.png"/>`.
 
 * Permettre aux utilisateurs d'écrire en [Markdown](https://guides.github.com/features/mastering-markdown/) ! Par exemple :
 ```markdown
