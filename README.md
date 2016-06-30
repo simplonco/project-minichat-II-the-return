@@ -37,7 +37,7 @@ It's a chat, of course you must let people talk together on a global channel, __
 
 * The mini-cat does not automatically update if new messages. However, you can easily do is provide a link "Refresh" to load the page again. Thus, if there are new messages, they will appear after clicking on the link.
 
-* Refresh automatically every 5 seconds the page using __JavaScript__.
+* Refresh automatically every 30 seconds the page using __JavaScript__.
 
 * View old messages. It is now clear that the last 10 messages. Can you find a way to display the old messages? Of course, view them all at once on the same page is not a good idea. You could imagine a setting `$_GET['page']` which to choose the messages page number to display.
 
