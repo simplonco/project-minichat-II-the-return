@@ -38,27 +38,7 @@ if ($_POST) {
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
-  <style>
-.mdl-grid {
-bottom: 0px;
-left: -382.5px;
-margin: 0px auto 0px 50%;
-margin-left: 50%;
-position: fixed;
-width: 765px;
-}
-.mdl-layout__container {
-    position: absolute;
-    width: 100%;
-    height: 80%;
-}
-ul, ol {
-    font-size: 14px;
-    line-height: 50px;
-}
-</style>
+
     <div class="mdl-layout mdl-js-layout">
         <main class="mdl-layout__content">
             <div class="page-content">
@@ -67,10 +47,7 @@ ul, ol {
                   <?php
                   // Récupération des 10 derniers messages
                
-                  $localhost = 'localhost';
-                  $username = 'root';
-                  $password = 'root';
-                  $database = 'chat';
+                 
                   $_COOKIE['nickname'] = $_POST['nickname'];
                   mysql_connect($localhost, $username, $password);
                   mysql_select_db($database);$sql = 'SELECT * FROM chat';
@@ -88,16 +65,13 @@ ul, ol {
                   ?>
                     <li class="mdl-list__item">
                         <span class="mdl-list__item-primary-content">
-                            <strong><?php  ?></strong><?php  ?>
+                           
                         </span>
                     </li>
-<?php
-// }
-// ...
-?>
+
                 </ul>
                   </div>
->>>>>>> d94cd419a9ae913c6879a949a5fa074dd2bb92c9
+
 <div>
                  <form action="<?php echo $PHP_SELF;?>" class="mdl-grid" method="POST">
                     <div class="mdl-cell mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
