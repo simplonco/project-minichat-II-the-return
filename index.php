@@ -23,6 +23,13 @@ if ($_POST) {
     <!-- Material Design Light -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <style>
+    #conversation {
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    </style>
 </head>
 
 <body>
@@ -32,7 +39,7 @@ if ($_POST) {
                 <ul class="demo-list-item mdl-list" id="conversation">
 <?php
 // Récupération des 10 derniers messages
-$reponse = $bdd->query('SELECT pseudo, message FROM minichat ORDER BY ID DESC LIMIT 0, 10');
+$reponse = $bdd->query('SELECT pseudo, message FROM minichat ORDER BY ID ASC');
 
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 while ($donnees = $reponse->fetch()) {
@@ -70,6 +77,12 @@ $reponse->closeCursor();
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <!-- Material Design Light -->
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script>
+    $(document).on("ready", function () {
+        var y = $("#conversation")[0].scrollHeight;
+        $("#conversation").animate({ scrollTop: y}, 1);
+    });
+    </script>
 </body>
 
 </html>
