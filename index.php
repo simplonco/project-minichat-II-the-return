@@ -1,4 +1,5 @@
 <?php
+
 // Connexion à la base de données
 try {
     $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', 'simplonco');
@@ -25,7 +26,7 @@ if ($_POST) {
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
     <style>
     #conversation {
-        height: 500px;
+        height: 400px;
         overflow-x: hidden;
         overflow-y: scroll;
     }
@@ -43,10 +44,15 @@ $reponse = $bdd->query('SELECT pseudo, message FROM minichat ORDER BY ID ASC');
 
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 while ($donnees = $reponse->fetch()) {
+    // SECURITY
+    $donnees['pseudo'] = htmlspecialchars($donnees['pseudo']);
+    $donnees['message'] = htmlspecialchars($donnees['message']);
+    // Smiley
+    $donnees['message'] = str_replace(":smile_cat:", "<img src=\"smile_cat.png\"/>", $donnees['message']);
 ?>
                     <li class="mdl-list__item">
                         <span class="mdl-list__item-primary-content">
-                            <strong><?php echo htmlspecialchars($donnees['pseudo']); ?></strong>: <?php echo htmlspecialchars($donnees['message']); ?>
+                            <strong><?php echo $donnees['pseudo']; ?></strong>: <?php echo $donnees['message']; ?>
                         </span>
                     </li>
 <?php
