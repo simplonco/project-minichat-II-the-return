@@ -1,0 +1,28 @@
+
+.mdl-grid {
+top: 50px;
+left: -382.5px;
+margin: 0px auto 0px 50%;
+margin-left: 50%;
+position: fixed;
+width: 765px;
+}
+.mdl-layout__container {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  bottom: 0px;
+}
+ul, ol {
+  font-size: 14px;
+  line-height: 50px;
+}
+.emoji-picker-icon {
+  position: absolute;
+  right: -30px;
+  top: 35px;
+}
+.mdl-button {
+    right: -35px;
+  top: 28px;
+}
