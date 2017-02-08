@@ -1,10 +1,18 @@
 <?php
 // Connexion à la base de données
 /* TODO */
+$localhost="localhost";
+$db_user="root";
+$db_password="root";
+$db="chat";
+mysql_connect($localhost,$db_user,$db_password); 
+mysql_select_db($db);
+$pseudo=$_POST['pseudo'];
+$message=$_POST['message'];
+$sql="INSERT INTO alimohamadadora(pseudo,message) VALUES('$pseudo','$message')";
+if($_POST){
+$query=mysql_query($sql);
 
-if ($_POST) {
-    // Insertion du message à l'aide d'une requête préparée
-    /* TODO */
 }
 
 ?>
@@ -18,6 +26,7 @@ if ($_POST) {
     <!-- Material Design Light -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+<meta http-equiv="refresh" content="30" />
 </head>
 
 <body>
@@ -28,32 +37,43 @@ if ($_POST) {
 <?php
 // Récupération des 10 derniers messages
 /* TODO */
+$localhost="localhost";
+$db_user="root";
+$db_password="root";
+$db="chat";
+mysql_connect($localhost,$db_user,$db_password); 
+mysql_select_db($db);
 
+$sql="SELECT * FROM alimohamadadora ORDER BY ID DESC LIMIT 0,10";
+$query=mysql_query($sql);
+ 
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 /* TODO */
 // while (...) {
 ?>
+<?php while($row=mysql_fetch_array($query)):?>
                     <li class="mdl-list__item">
                         <span class="mdl-list__item-primary-content">
-                            <strong><?php /* TODO */ ?></strong>: <?php /* TODO */ ?>
+                            <strong> <?php echo  htmlspecialchars($row['pseudo']); ?></strong>: <?php echo htmlspecialchars($row['message']); ?>
                         </span>
                     </li>
 <?php
+endwhile ;
 // }
 // ...
 ?>
                 </ul>
 
-                <form action="#" class="mdl-grid" method="POST">
-                    <div class="mdl-cell mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" name="pseudo" id="pseudo">
+                <form action="<?php echo $PHP_SELF;?>" class="mdl-grid" method="POST">
+                    <div class="mdl-cell mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="he";>
+                        <input class="mdl-textfield__input" type="text" name="pseudo" id="pseudo"> 
                         <label class="mdl-textfield__label" for="sample3">Pseudo</label>
                     </div>
                     <div class="mdl-cell mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                         <input class="mdl-textfield__input" type="text" name="message" id="message">
                         <label class="mdl-textfield__label" for="sample3">Message</label>
                     </div>
-                    <button id="send" class="mdl-cell mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+                    <button id="send"  class="mdl-cell mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
                         <i class="material-icons">send</i>
                     </button>
                 </form>
@@ -63,7 +83,10 @@ if ($_POST) {
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.0.2/firebase.js"></script>
+    <script src="./script.js"></script>
     <!-- Material Design Light -->
+
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 </body>
 
